@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D86E4F22A14F38800E03B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E4F12A14F38800E03B27 /* AppDelegate.swift */; };
+		0D86E4F42A14F38800E03B27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E4F32A14F38800E03B27 /* SceneDelegate.swift */; };
+		0D86E4F62A14F38800E03B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E4F52A14F38800E03B27 /* ViewController.swift */; };
+		0D86E4FB2A14F38A00E03B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D86E4FA2A14F38A00E03B27 /* Assets.xcassets */; };
+		0D86E4FE2A14F38A00E03B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D86E4FC2A14F38A00E03B27 /* LaunchScreen.storyboard */; };
+		0D86E5072A14F72600E03B27 /* LoginSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5062A14F72600E03B27 /* LoginSceneViewController.swift */; };
+		0D86E5092A14F8F800E03B27 /* LoginSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5082A14F8F800E03B27 /* LoginSceneInteractor.swift */; };
+		0D86E50B2A14FA5A00E03B27 /* LoginSceneAuthWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E50A2A14FA5A00E03B27 /* LoginSceneAuthWorker.swift */; };
+		0D86E50D2A14FD4C00E03B27 /* LoginScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E50C2A14FD4C00E03B27 /* LoginScenePresenter.swift */; };
+		0D86E50F2A14FE8A00E03B27 /* LoginSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E50E2A14FE8A00E03B27 /* LoginSceneRouter.swift */; };
+		0D86E5112A14FF2700E03B27 /* LoginSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5102A14FF2700E03B27 /* LoginSceneConfigurator.swift */; };
+		0D86E5132A1503EA00E03B27 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5122A1503EA00E03B27 /* SceneFactory.swift */; };
+		0D86E5172A15041B00E03B27 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5162A15041B00E03B27 /* NetworkManager.swift */; };
+		0D86E5192A15043300E03B27 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5182A15043300E03B27 /* NetworkSession.swift */; };
+		0D86E51C2A15046800E03B27 /* CleanLoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E51B2A15046800E03B27 /* CleanLoginUser.swift */; };
+		0D86E51F2A15055200E03B27 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E51E2A15055200E03B27 /* AuthService.swift */; };
+		0D86E5222A15058400E03B27 /* AuthService+positiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D86E5212A15058400E03B27 /* AuthService+positiveResponse.json */; };
+		0D86E5242A1505AC00E03B27 /* AuthService+negativeResponse.json in Sources */ = {isa = PBXBuildFile; fileRef = 0D86E5232A1505AC00E03B27 /* AuthService+negativeResponse.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D86E4EE2A14F38800E03B27 /* Netguru CleanLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netguru CleanLogin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D86E4F12A14F38800E03B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D86E4F32A14F38800E03B27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D86E4F52A14F38800E03B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D86E4FA2A14F38A00E03B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D86E4FD2A14F38A00E03B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D86E4FF2A14F38A00E03B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D86E5062A14F72600E03B27 /* LoginSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneViewController.swift; sourceTree = "<group>"; };
+		0D86E5082A14F8F800E03B27 /* LoginSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneInteractor.swift; sourceTree = "<group>"; };
+		0D86E50A2A14FA5A00E03B27 /* LoginSceneAuthWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneAuthWorker.swift; sourceTree = "<group>"; };
+		0D86E50C2A14FD4C00E03B27 /* LoginScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScenePresenter.swift; sourceTree = "<group>"; };
+		0D86E50E2A14FE8A00E03B27 /* LoginSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneRouter.swift; sourceTree = "<group>"; };
+		0D86E5102A14FF2700E03B27 /* LoginSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneConfigurator.swift; sourceTree = "<group>"; };
+		0D86E5122A1503EA00E03B27 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		0D86E5162A15041B00E03B27 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0D86E5182A15043300E03B27 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		0D86E51B2A15046800E03B27 /* CleanLoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanLoginUser.swift; sourceTree = "<group>"; };
+		0D86E51E2A15055200E03B27 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0D86E5212A15058400E03B27 /* AuthService+positiveResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AuthService+positiveResponse.json"; sourceTree = "<group>"; };
+		0D86E5232A1505AC00E03B27 /* AuthService+negativeResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "AuthService+negativeResponse.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D86E4EB2A14F38800E03B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D86E4E52A14F38800E03B27 = {
+			isa = PBXGroup;
+			children = (
+				0D86E4F02A14F38800E03B27 /* Netguru CleanLogin */,
+				0D86E4EF2A14F38800E03B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D86E4EF2A14F38800E03B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E4EE2A14F38800E03B27 /* Netguru CleanLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D86E4F02A14F38800E03B27 /* Netguru CleanLogin */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E51A2A15046200E03B27 /* Models */,
+				0D86E5142A1503F600E03B27 /* Factories */,
+				0D86E5152A15040E00E03B27 /* Managers */,
+				0D86E51D2A15054200E03B27 /* Services */,
+				0D86E5052A14F70C00E03B27 /* LoginScene */,
+				0D86E4F12A14F38800E03B27 /* AppDelegate.swift */,
+				0D86E4F32A14F38800E03B27 /* SceneDelegate.swift */,
+				0D86E4F52A14F38800E03B27 /* ViewController.swift */,
+				0D86E4FA2A14F38A00E03B27 /* Assets.xcassets */,
+				0D86E4FC2A14F38A00E03B27 /* LaunchScreen.storyboard */,
+				0D86E4FF2A14F38A00E03B27 /* Info.plist */,
+			);
+			path = "Netguru CleanLogin";
+			sourceTree = "<group>";
+		};
+		0D86E5052A14F70C00E03B27 /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E5062A14F72600E03B27 /* LoginSceneViewController.swift */,
+				0D86E5082A14F8F800E03B27 /* LoginSceneInteractor.swift */,
+				0D86E50A2A14FA5A00E03B27 /* LoginSceneAuthWorker.swift */,
+				0D86E50C2A14FD4C00E03B27 /* LoginScenePresenter.swift */,
+				0D86E50E2A14FE8A00E03B27 /* LoginSceneRouter.swift */,
+				0D86E5102A14FF2700E03B27 /* LoginSceneConfigurator.swift */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		0D86E5142A1503F600E03B27 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E5122A1503EA00E03B27 /* SceneFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		0D86E5152A15040E00E03B27 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E5162A15041B00E03B27 /* NetworkManager.swift */,
+				0D86E5182A15043300E03B27 /* NetworkSession.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0D86E51A2A15046200E03B27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E51B2A15046800E03B27 /* CleanLoginUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D86E51D2A15054200E03B27 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E5202A15056C00E03B27 /* DefaultResponsesJSONs */,
+				0D86E51E2A15055200E03B27 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0D86E5202A15056C00E03B27 /* DefaultResponsesJSONs */ = {
+			isa = PBXGroup;
+			children = (
+				0D86E5212A15058400E03B27 /* AuthService+positiveResponse.json */,
+				0D86E5232A1505AC00E03B27 /* AuthService+negativeResponse.json */,
+			);
+			path = DefaultResponsesJSONs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D86E4ED2A14F38800E03B27 /* Netguru CleanLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D86E5022A14F38A00E03B27 /* Build configuration list for PBXNativeTarget "Netguru CleanLogin" */;
+			buildPhases = (
+				0D86E4EA2A14F38800E03B27 /* Sources */,
+				0D86E4EB2A14F38800E03B27 /* Frameworks */,
+				0D86E4EC2A14F38800E03B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Netguru CleanLogin";
+			productName = "Netguru CleanLogin";
+			productReference = 0D86E4EE2A14F38800E03B27 /* Netguru CleanLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D86E4E62A14F38800E03B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0D86E4ED2A14F38800E03B27 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D86E4E92A14F38800E03B27 /* Build configuration list for PBXProject "Netguru CleanLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D86E4E52A14F38800E03B27;
+			productRefGroup = 0D86E4EF2A14F38800E03B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D86E4ED2A14F38800E03B27 /* Netguru CleanLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D86E4EC2A14F38800E03B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D86E4FE2A14F38A00E03B27 /* LaunchScreen.storyboard in Resources */,
+				0D86E4FB2A14F38A00E03B27 /* Assets.xcassets in Resources */,
+				0D86E5222A15058400E03B27 /* AuthService+positiveResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D86E4EA2A14F38800E03B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D86E50D2A14FD4C00E03B27 /* LoginScenePresenter.swift in Sources */,
+				0D86E5132A1503EA00E03B27 /* SceneFactory.swift in Sources */,
+				0D86E51C2A15046800E03B27 /* CleanLoginUser.swift in Sources */,
+				0D86E50F2A14FE8A00E03B27 /* LoginSceneRouter.swift in Sources */,
+				0D86E4F62A14F38800E03B27 /* ViewController.swift in Sources */,
+				0D86E5172A15041B00E03B27 /* NetworkManager.swift in Sources */,
+				0D86E4F22A14F38800E03B27 /* AppDelegate.swift in Sources */,
+				0D86E5242A1505AC00E03B27 /* AuthService+negativeResponse.json in Sources */,
+				0D86E4F42A14F38800E03B27 /* SceneDelegate.swift in Sources */,
+				0D86E5112A14FF2700E03B27 /* LoginSceneConfigurator.swift in Sources */,
+				0D86E5072A14F72600E03B27 /* LoginSceneViewController.swift in Sources */,
+				0D86E5192A15043300E03B27 /* NetworkSession.swift in Sources */,
+				0D86E50B2A14FA5A00E03B27 /* LoginSceneAuthWorker.swift in Sources */,
+				0D86E5092A14F8F800E03B27 /* LoginSceneInteractor.swift in Sources */,
+				0D86E51F2A15055200E03B27 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D86E4FC2A14F38A00E03B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D86E4FD2A14F38A00E03B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D86E5002A14F38A00E03B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D86E5012A14F38A00E03B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D86E5032A14F38A00E03B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAD3VV45WY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Netguru CleanLogin/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.katsubo.Netguru-CleanLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D86E5042A14F38A00E03B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAD3VV45WY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Netguru CleanLogin/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.katsubo.Netguru-CleanLogin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D86E4E92A14F38800E03B27 /* Build configuration list for PBXProject "Netguru CleanLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D86E5002A14F38A00E03B27 /* Debug */,
+				0D86E5012A14F38A00E03B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D86E5022A14F38A00E03B27 /* Build configuration list for PBXNativeTarget "Netguru CleanLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D86E5032A14F38A00E03B27 /* Debug */,
+				0D86E5042A14F38A00E03B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D86E4E62A14F38800E03B27 /* Project object */;
+}
